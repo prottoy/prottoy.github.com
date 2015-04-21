@@ -1,8 +1,5 @@
-
-
 <!doctype html>
 <html lang="en">
-
 <head>
 	<meta charset="utf-8">
 
@@ -14,11 +11,7 @@
 	<link rel="stylesheet" href="reveal_test/reveal.js-master/css/theme/serif.css" id="theme">
 	<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
 
-	<script>
-	function goto(x){
-		Reveal.slide( x );
-	}
-	</script>
+
 
 	<style>
 	#circle
@@ -76,7 +69,7 @@
 				</section>
 
 				<section data-background="black" id="sct">
-				<!-- <section data-background="images/sct/sct_1.jpeg" data-background-size="300px" data-background-repeat="no-repeat"> -->
+					<!-- <section data-background="images/sct/sct_1.jpeg" data-background-size="300px" data-background-repeat="no-repeat"> -->
 					<img src="images/sct/sct_1.jpeg" style="width:25%;height:25%;">
 					<img src="images/sct/sct_2.jpeg" style="width:25%;height:25%;">
 					<img src="images/sct/sct_3.jpeg" style="width:25%;height:25%;">
@@ -116,12 +109,19 @@
 					<p style="color:white; opacity:0.3; font-family: 'Roboto', sans-serif; font-size:75%;" >Coming soon...</p>
 				</section>
 			</section>
-			
+
 			<section data-background="black">
-				<p><a href="#/ftth" style="color:white;  font-family: 'Roboto', sans-serif;">FTTH COUNCIL ASIA PACIFIC</a></p>
-				<p><a href="#/sct" style="color:white;  font-family: 'Roboto', sans-serif;">SCT TELEMEDICINE</a></p>
-				<p><a href="#/calculator" style="color:white;  font-family: 'Roboto', sans-serif;">BANGLA CALCULATOR</a></p>
-				<p><a href="#/wcin" style="color:white;  font-family: 'Roboto', sans-serif;">WORK CHECK-IN</a></p>
+				<a href="#/ftth" style="color:white;  font-family: 'Roboto', sans-serif;">FTTH COUNCIL ASIA PACIFIC</a>
+				<a href="#/sct" style="color:white;  font-family: 'Roboto', sans-serif;">SCT TELEMEDICINE</a>
+				<a href="#/calculator" style="color:white;  font-family: 'Roboto', sans-serif;">BANGLA CALCULATOR</a>
+				<a href="#/wcin" style="color:white;  font-family: 'Roboto', sans-serif;">WORK CHECK-IN</a>
+			</section>
+
+			<section tagcloud style="color:white;  font-family: 'Roboto', sans-serif;">
+				<a href="#/ftth" style="color:white;  font-family: 'Roboto', sans-serif;">FTTH COUNCIL ASIA PACIFIC</a>
+				<a href="#/sct" style="color:white;  font-family: 'Roboto', sans-serif; opacity:0.5;">SCT TELEMEDICINE</a>
+				<a href="#/calculator" style="color:white;  font-family: 'Roboto', sans-serif;">BANGLA CALCULATOR</a>
+				<a href="#/wcin" style="color:white;  font-family: 'Roboto', sans-serif; opacity:0.5;">WORK CHECK-IN</a>
 			</section>
 
 		</div>
@@ -142,21 +142,26 @@
 
 	<script>
 
-			// Full list of configuration options available here:
-			// https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				center: true,
-				transition: 'linear',
-				transitionSpeed: 'default',
-				backgroundTransition: 'default',
-				autoSlide: 5000,
-				overview: true,
-				previewLinks: true,
-				slideNumber: true 
-				// parallaxBackgroundImage: 'images/tron.jpg', // e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'"
-			});
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+	center: true,
+	transition: 'linear',
+	transitionSpeed: 'default',
+	backgroundTransition: 'default',
+	autoSlide: 5000,
+	overview: true,
+	previewLinks: true,
+	slideNumber: true 
+// parallaxBackgroundImage: 'images/tron.jpg', // e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'"
+});
 
-			</script>
+</script>
+<script>
+function goto(x){
+	Reveal.slide( x );
+}
+</script>
 
-		</body>
-		</html>
+</body>
+</html>
