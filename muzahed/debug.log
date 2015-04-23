@@ -1,0 +1,19 @@
+[0422/234515:INFO:CONSOLE(24)] "Uncaught TypeError: Object #<Object> has no method 'callbackTunnelAsync'", source: http://download.macromedia.com/pub/edgetools/animate/3/currentversion.js?t=979 (24)
+[0422/234520:ERROR:gles2_cmd_decoder.cc(5484)] .SharedGraphicsContext: GL ERROR :GL_INVALID_VALUE : glTexParameteri: unknown texture
+[0423/011117:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0423/011117:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0423/011117:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0423/011117:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0423/011127:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0423/011127:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0423/011127:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0423/031806:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0423/031806:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0423/031806:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0423/031806:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0423/031816:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0423/031816:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0423/031816:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0423/031816:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0423/031827:ERROR:ipc_channel_win.cc(401)] pipe error: 232
+[0423/031827:ERROR:ipc_channel_win.cc(401)] pipe error: 232
