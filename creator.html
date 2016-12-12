@@ -1,0 +1,257 @@
+<html>   
+   <head>
+      <title>CV Builder </title>
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   </head>
+
+   <body>
+      <!-- This is where the user CV will be generated -->
+      <div class="container-fluid" ng-app = "mainApp" ng-controller = "userController">
+         <br/> <br/>
+         <div class = "row">
+
+            <div class= "col-sm-4">
+               <div class="row">
+                  <div class= "col-sm-2"> </div>
+                  <div class="col-sm-8 form-group">
+
+                     <hr>
+                     <b>About you: </b>
+                     <hr>
+
+                     <form>
+                        <div class="form-group">
+                           <input type="firstname" class="form-control input-append" id="email" placeholder="Enter First Name" ng-model = "user.firstName">
+                        </div>
+                        <div class="form-group">
+                           <input type="firstname" class="form-control" id="email" placeholder="Enter Last Name" ng-model = "user.lastName">
+                        </div>
+                        <div class="form-group">
+                           <input type="phoneNumber" class="form-control" id="email" placeholder="Enter Phone Number" ng-model = "user.cell">
+                        </div>
+                        <div class="form-group">
+                           <input type="email" class="form-control" id="email" placeholder="Enter Email" ng-model = "user.email">
+                        </div>
+                        <!-- <button type="submit" class="btn btn-default">Submit</button> -->
+                    </form>
+
+                     <hr>
+                     <b>Education: </b>
+                     <hr>
+
+                     <form>
+                        <div class="form-group">
+                           <input type="education" class="form-control input-append" id="education" placeholder="Enter Education" ng-model = "user.education">
+                        </div>
+                        <!-- <button type="submit" class="btn btn-default">Submit</button> -->
+                    </form>
+
+                  </div>
+                  <div class= "col-sm-2"> </div>
+               </div>
+            </div>
+
+            <div class= "col-sm-8">
+               <br/>
+               <div class="row ng-cloak"> <center> <b> {{user.fullName()}} </b> </center> </div>
+               <div class="row ng-cloak"> <center>  Cell: {{user.cell}} </center> </div>
+               <div class="row ng-cloak"> <center>  Email: {{user.email}} </center> </div>
+
+               <div class="row"> 
+                  <div class= "col-sm-2"> </div>
+                  <div class= "col-sm-8"> 
+                     
+
+                  </div>
+                  <div class= "col-sm-2"> </div>
+               </div>
+
+
+               <div class="row"> 
+                  <div class= "col-sm-2"> </div>
+                  <div class= "col-sm-8"> 
+
+                        <hr>
+                        <b>Professional Experience </b> 
+                        <hr>
+
+                        <b>October 2016 - Present </b>
+                        <br/>
+                        Software Engineer, Therap(Bd) Ltd.
+                        <ul>
+                           <li> Therap iOS app development </li>
+                        </ul>
+                  </div>
+                  <div class= "col-sm-2"> </div>
+               </div>
+
+               <div class="row"> 
+                  <div class= "col-sm-2"> </div>
+                  <div class= "col-sm-8"> 
+                        <b>December 2015 - October 2016 </b>
+                        <br/>
+                        iOS Developer, Therap(Bd) Ltd.
+                        <ul>
+                           <li> Therap iOS app development </li>
+                        </ul>
+                  </div>
+                  <div class= "col-sm-2"> </div>
+               </div>
+
+               <div class="row"> 
+                  <div class= "col-sm-2"> </div>
+                  <div class= "col-sm-8"> 
+                        <b>July 2015 - December 2015 </b>
+                        <br/>
+                        Senior Software Engineer, Lantas Tech
+                        <ul>
+                           <li> Lead iOS app development </li>
+                        </ul>
+                  </div>
+                  <div class= "col-sm-2"> </div>
+               </div>
+
+               <div class="row"> 
+                  <div class= "col-sm-2"> </div>
+                  <div class= "col-sm-8"> 
+                        <b>April 2013 – July 2015</b>
+                        <br/>
+                        Engineering Manager(Payment and api integration), Green & Red Technologies, Dhaka, Bangladesh.
+                        <ul>
+                           <li> Developed ad sdk for iOS. </li>
+                           <li> Bangla Calculator. A simple calculator app to preview the G&R ad sdk.</li>
+                           <li> Lead on payment and other api integration. </li>
+                           <li> Lead on payment api integration(BKash, Paypal and BRAC) on G&R ad network.</li>
+                           <li> Lead on Video ad integration with G&R ad network.</li>
+                        </ul>
+                  </div>
+                  <div class= "col-sm-2"> </div>
+               </div>
+
+               <div class="row"> 
+                  <div class= "col-sm-2"> </div>
+                  <div class= "col-sm-8"> 
+                        <b>Mar 2013 – May 2013</b>
+                        <br/>
+                        Part time Software Engineer, Eatl apps, Dhaka, Bangladesh.                 
+                        <ul>
+                           <li> Android app development on some R&D projects.</li>
+                        </ul>
+                  </div>
+                  <div class= "col-sm-2"> </div>
+               </div>
+
+               <div class="row"> 
+                  <div class= "col-sm-2"> </div>
+                  <div class= "col-sm-8"> 
+                        <b>Mar 2011 – May 2014</b>
+                        <br/>
+                        Software Engineer, Mangoes Mobile, Dhaka, Bangladesh.
+                        <ul>
+                           <li> Lead iOS development for Swinfen Charitable Trust, the leading global telemedicine network.</li>
+                           <li> REST api development for Swinfen Charitable Trust.</li>
+                           <li> Verizon terremark server management for Swinfen Charitable Trust.</li>
+                           <li> Migration from Verizon terremark server to AWS for Swinfen Charitable Trust.</li>
+                           <li> AWS server management for Swinfen Charitable Trust.</li>
+                           <li> Lead iOS development for PRAXIS Framework.</li>
+                           <li> Lead iOS app development for PRAXIS messenger.</li>
+                           <li> Lead iOS app development for inTown.</li>
+                        </ul>
+                  </div>
+                  <div class= "col-sm-2"> </div>
+               </div>
+
+               <div class="row"> 
+               <div class= "col-sm-2"> </div>
+               <div class= "col-sm-8"> 
+
+                     <hr>
+                     <b>Projects </b> 
+                     <hr> 
+
+                     <ul>
+                        <li> Therap </li>
+                        <ul> 
+                           <li> The Therap iOS application is a tool for HIPAA compliant documentation and communication for the Developmental Disability community. It can also be used in most other Long Term Care (LTC) communities.</li> 
+                           <li> <a href= "https://itunes.apple.com/us/app/therap/id417024848?mt=8" target="_blank"> View in app store </a> </li> 
+                        </ul>
+
+                        <li> FTTH Council conference app for iOS </li>
+                        <ul> 
+                           <li> iPhone client project for Fiber to the home council Asia Pacific. </li> 
+                           <li> Project Responsibilities: iOS development </li>
+                           <li> <a href= "https://itunes.apple.com/us/app/ftth-council-asia-pacific/id645231050?mt=8" target="_blank"> View in app store </a> </li> 
+                        </ul>
+
+                        <li> Bangla Calculator for iOS </li>
+                        <ul> 
+                           <li> A simple calculator app to preview the G&R ad sdk. </li> 
+                           <li> Project Responsibilities: iOS development </li>
+                           <li> <a href= "https://itunes.apple.com/us/app/bangla-calculator/id694530816?mt=8" target="_blank"> View in app store </a> </li> 
+                        </ul>
+
+                        <li> Swinfen for iOS </li>
+                        <ul>
+                           <li> iPhone client project at ManGoes Mobile.</li>
+                           <li> Project Responsibilities: 
+                              <ul>
+                                 <li> iOS development </li>
+                                 <li> API development </li>
+                                 <li> Verizon terremark cloud server maintenance  </li>
+                                 <li> AWS server maintenance</li>
+                              </ul>
+                           </li>
+                           <li> <a href= "https://itunes.apple.com/us/app/sct-telemedicine/id898575884?mt=8" target="_blank"> View in app store </a> </li> 
+                        </ul>
+
+                        <li> G&R ad SDK for iOS <mark>(Discontinued)</mark> </li>
+                        <ul> 
+                           <li> SDK for serving G&R ad </li> 
+                           <li> Project Responsibilities: iOS development </li>
+                        </ul>
+
+                        <li> iTrackpad for Android </li>
+                        <li> inTown <mark> (Not available anymore) </mark> </li>
+                     </ul>
+
+                     <hr>
+                     <b> Education</b> 
+                     <hr>
+
+                     <ul> 
+                        <li> Bsc. In Computer Science and Engineering, BRAC University. </li>
+                     </ul>
+                  </div>
+                  <div class= "col-sm-2"> </div>
+               </div>
+            </div>
+            </div>
+         </div>
+
+      <br> <br>
+
+        <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js"><\/script>')</script>
+
+      <script>
+         var mainApp = angular.module("mainApp", []);
+
+         mainApp.controller('userController', function($scope) {
+            $scope.user = {
+               firstName: "",
+               lastName: "",
+               cell: "",
+
+               fullName: function() {
+                  var userObject;
+                  userObject = $scope.user;
+                  return userObject.firstName + " " + userObject.lastName;
+               }
+            };
+         });
+      </script>
+
+   </body>
+</html>
