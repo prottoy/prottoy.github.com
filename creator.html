@@ -6,6 +6,17 @@
    </head>
 
    <body>
+      <nav class="navbar navbar-inverse navbar-fixed-bottom">
+        <div class="container-fluid">
+          <div class="navbar-header">
+             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>                        
+             </button>
+             <a class="navbar-brand" href="#">Mahbub Morshed</a>
+      </div>
+
       <div class="collapse navbar-collapse" id="myNavbar">
          <ul class="nav navbar-nav">
             <li class= "active"> <a href="index.html">home</a></li>
@@ -14,7 +25,7 @@
             <li> <a href="creator.html" target="_blank">cv creator (under construction)</a></li>
          </ul>
       </div>
-   
+
       <!-- This is where the user CV will be generated -->
       <div class="container-fluid" ng-app = "mainApp" ng-controller = "userController">
          <br/> <br/>
@@ -240,9 +251,9 @@
 
       <br> <br>
 
-        <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js"><\/script>')</script>
+     <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js"><\/script>')</script>
 
       <script>
          var mainApp = angular.module("mainApp", []);
